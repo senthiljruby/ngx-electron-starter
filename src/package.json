@@ -1,0 +1,10 @@
+{
+  "name": "ngx-electron-starter",
+  "productName": "ngx-electron-starter",
+  "version": "0.0.1",
+  "description": "Angular 6+ & Electron 3",
+  "main": "electron.js",
+  "license": "MIT",
+  "dependencies": {
+  }
+}
