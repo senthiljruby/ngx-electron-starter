@@ -1,6 +1,6 @@
 {
   "name": "ngx-electron-starter",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "src/electron.js",
   "scripts": {
     "ng": "ng",
@@ -10,14 +10,13 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build:dev": "ng build && electron .",
-    "build:prod": "ng build -- prod && electron .",
+    "build:prod": "ng build --prod && electron .",
     "electron-test": "mocha",
     "package:win": "npm run build && cross-var electron-packager dist/ngx-electron-starter $npm_package_name-$npm_package_version --out=packages --platform=win32 --arch=all --overwrite --asar ",
     "package:linux": "npm run build && cross-var electron-packager dist/ngx-electron-starter $npm_package_name-$npm_package_version --out=packages --platform=linux --arch=all --overwrite --asar ",
     "package:osx": "npm run build && cross-var electron-packager dist/ngx-electron-starter $npm_package_name --out=packages --platform=darwin --arch=all --overwrite --app-bundle-id=ngx.electron.starter --helper-bundle-id=ngx.electron.starter.helper --app-version=0.0.1 --build-version=0.0.1 --asar ",
     "package:all": "npm run build && cross-var electron-packager dist/ngx-electron-starter $npm_package_name-$npm_package_version --out=packages --all --arch=all --overwrite --asar "
   },
-  "private": true,
   "dependencies": {
     "@angular/animations": "^6.1.9",
     "@angular/common": "^6.1.9",

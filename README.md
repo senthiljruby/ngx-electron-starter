@@ -2,13 +2,30 @@
 
 This project was generated with angular version 6.1.9. and electron 3.0.2
 
+
+[![Total Download Status](https://img.shields.io/nuget/dt/ngx-electron-starter.svg?style=for-the-badge)](https://www.npmjs.com/package/ngx-electron-starter)
+
+
+````
+# clone our repo
+git clone https://github.com/senthiljruby/ngx-electron-starter.git
+
+or 
+
+npm install ngx-electron-starter # Copy the folder ngx-electron-starter and use as you wanted.
+
+
+````
+
 ## Development server
 
 Run `yarn build:dev` for running the app in electron (Standalone)
 
 if you want to run in web browser,
 
-Run `yarn start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `yarn start` for a dev server. Navigate to `http://localhost:4200/`. 
+
+The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
@@ -47,3 +64,18 @@ Run `yarn e2e` to execute the end-to-end tests via [Protractor](http://www.protr
 ## Running Electron unit tests
 
 Run `yarn electron-test` to execute the unit tests via [mocha](https://mochajs.org/).
+
+__1.0.0__
+
+- Initial release
+
+
+## License
+
+Copyright (c) 2019
+
+Licensed under the [MIT license](LICENSE).
+
+## Author
+
+Senthil Kumar Bhaskaran
