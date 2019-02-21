@@ -3,7 +3,7 @@
 This project was generated with angular version 6.1.9. and electron 3.0.2
 
 
-[![Total Download Status](https://img.shields.io/nuget/dt/ngx-electron-starter.svg?style=for-the-badge)](https://www.npmjs.com/package/ngx-electron-starter)
+[![Total Download Status](https://img.shields.io/npm/dt/ngx-electron-starter.svg?style=for-the-badge)](https://www.npmjs.com/package/ngx-electron-starter)
 
 
 ````
