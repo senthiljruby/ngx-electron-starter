@@ -1,6 +1,6 @@
 {
   "name": "ngx-electron-starter",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "main": "src/electron.js",
   "scripts": {
     "ng": "ng",
@@ -32,7 +32,7 @@
     "zone.js": "~0.8.26"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "~0.8.4",
+    "@angular-devkit/build-angular": "^0.803.1",
     "@angular/cli": "~6.2.4",
     "@angular/compiler-cli": "^6.1.9",
     "@angular/language-service": "^6.1.9",
@@ -42,7 +42,7 @@
     "codelyzer": "~4.4.4",
     "cross-var": "^1.1.0",
     "electron": "3.0.2",
-    "electron-packager": "^12.1.2",
+    "electron-packager": "^14.0.4",
     "jasmine-core": "~3.2.1",
     "jasmine-spec-reporter": "~4.2.1",
     "karma": "~3.0.0",
