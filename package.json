@@ -41,7 +41,7 @@
     "@types/node": "~10.11.3",
     "codelyzer": "~4.4.4",
     "cross-var": "^1.1.0",
-    "electron": "3.0.2",
+    "electron": "3.0.16",
     "electron-packager": "^14.0.4",
     "jasmine-core": "~3.2.1",
     "jasmine-spec-reporter": "~4.2.1",
